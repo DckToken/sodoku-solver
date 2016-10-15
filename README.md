@@ -27,11 +27,11 @@ i║   │   │   ║   │   │   ║   │   │   ║ #row 8
 ##How to store values
 Nested lists. I think I need them
 ```python
-#         square 
-#           | 
+#       square 
+#         | 
 #       column
-#      row| |
-#       | | |
+#     row||
+#       |||
 board = [[[3, 7, 8],[4, 5, 9],[8, 9, 6]]]
 # First square is board[0][0][0]
 # Syntax is board[row][column][square]
