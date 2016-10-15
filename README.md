@@ -29,7 +29,7 @@ Nested lists. I think I need them
 ```python
 #       square 
 #         | 
-#       column
+#      col|
 #     row||
 #       |||
 board = [[[3, 7, 8],[4, 5, 9],[8, 9, 6]]]
@@ -72,7 +72,15 @@ To Do: convert this to a nested list
 Maybe the easiest way, right? But it will take long so it might be discarded
 
 ###Backtracking
-Never heard of this. I will read it carefully and write a python implementation with the nested list I currently have. I still don't know how to point data with that nested list
+Never heard of this. I will read it carefully and write a python implementation with the nested list I currently have. I still don't know how to point data with that nested list...
+
+```python
+#Make a copy of the current array
+currentBoard = board[:]
+for row in xrange(0, 8):
+	for col in xrange(0, 8):
+```
+Someting like this maybe?
 
 ###Exact cover
 I think it will take me longer to understand this than to do a brute force algorithm
