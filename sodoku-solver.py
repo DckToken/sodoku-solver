@@ -1,3 +1,11 @@
+def isFull (bd):
+    return bd.count('.') == 0
+	#this is assuming you use '.' as a placeholder
+
+def hasSolution():
+	if(isFull(board)):
+		print('Board complete.')
+	
 def printBoard(board):
 	n = 0
 	print(" ╔═══╤═══╤═══╦═══╤═══╤═══╦═══╤═══╤═══╗ ")
@@ -10,6 +18,7 @@ def printBoard(board):
 	print(" ╚═══╧═══╧═══╩═══╧═══╧═══╩═══╧═══╧═══╝ ")
 	print("   1   2   3   4   5   6   7   8   9 ")
 	print(board[2][0][0])
+
 board = [[[3, 9, 1],[2, 8, 6],[5, 7, 4]],[[4, 8, 7],[3, 5, 9],[1, 2, 6]],[[6, 5, 2],[7, 1, 4],[8, 3, 9]],[[8, 7, 5],[4, 3, 1],[6, 9, 2]],[[2, 1, 3],[9, 6, 7],[4, 8, 5]],[[9, 6, 4],[5, 2, 8],[7, 1, 3]],[[1, 4, 6]],[6, 7, 3],[2, 5, 8]],[[5, 3, 7],[1, 4, 2],[9, 6, 7]],[[7, 2, 6],[8, 9, 5],[3, 4, 1]]] #for testin'!
 printBoard(board)
 for row in range(0, 9):
