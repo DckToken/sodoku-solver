@@ -35,4 +35,6 @@ Nested lists. I think I need them
 board = [[[3, 7, 8],[4, 5, 9],[8, 9, 6]]]
 # First square is board[0][0][0]
 # Syntax is board[row][column][square]
+board = [[[3, 7, 8],[4, 5, 9],[8, 9, 6]],[[2, 8, 4],[5, 6, 9],[2, 4, 5]]]
+#That should work too
 ```
