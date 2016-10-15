@@ -34,7 +34,7 @@ Nested lists. I think I need them
 #       |||
 board = [[[3, 7, 8],[4, 5, 9],[8, 9, 6]]]
 # First square is board[0][0][0]
-# Syntax is board[row][column][square]
+# Syntax is board[row][col][square]
 board = [[[3, 7, 8],[4, 5, 9],[8, 9, 6]],[[2, 8, 4],[5, 6, 9],[2, 4, 5]]]
 #That should work too
 ```
@@ -90,3 +90,12 @@ This is probably just try and error-like algorith. Something like brute force, m
 
 ###Constraint programming
 Wikipedia links to [this](http://4c.ucc.ie/~hsimonis/sudoku.pdf), it might be usefull
+
+##Reading data
+From the current structure, this is how I can read data horizantly:
+```python
+for row in xrange(0, 8):
+	for col in xrange(0, 8):
+		for i in xrange(0, 2):
+			print(board[row][col][i])
+```
