@@ -62,7 +62,7 @@ i║   │   │ 5 ║ 9 │   │   ║ 7 │   │   ║
    1   2   3   4   5   6   7   8   9
 ```
 (27 clues)
-I should use this one for testing purpouses
+I should use this one for testing purposes
 To Do: convert this to a nested list
 
 ##Solving algorithm
@@ -80,16 +80,16 @@ currentBoard = board[:]
 for row in xrange(0, 8):
 	for col in xrange(0, 8):
 ```
-Someting like this maybe?
+Something like this maybe?
 
 ###Exact cover
 I think it will take me longer to understand this than to do a brute force algorithm
 
 ###Stochastic search
-This is probably just try and error-like algorith. Something like brute force, maybe?
+This is probably just trial and error-like algorith. Something like brute force, maybe?
 
 ###Constraint programming
-Wikipedia links to [this](http://4c.ucc.ie/~hsimonis/sudoku.pdf), it might be usefull
+Wikipedia links to [this](http://4c.ucc.ie/~hsimonis/sudoku.pdf), it might be useful
 
 ##Reading data
 From the current structure, this is how I can read data horizantly:
